@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,900;1,600&family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #023047;
+}
+
+.container {
+  border: 0.5rem;
+  border-radius: 0.5rem;
+  width: 26rem;
+  height: 30rem;
+  margin: 4rem;
+  padding: 7rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%);
+  backdrop-filter: blur(10px);
+}
+
+button {
+  background-color: #5b7db1;
+  border-radius: 0.5rem;
+  width: 15rem;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  border: 0.02rem solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: none;
+}
+
+h1 {
+  margin: 0.6rem;
+}
+
+.prev {
+  margin-right: 0;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 5rem 3rem;
+  }
+}
